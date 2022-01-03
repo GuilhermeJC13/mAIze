@@ -12,7 +12,6 @@ import math
 import pickle
 import time
 import plot
-#from rat_game_env import Maze_agent
 import os
 
 
@@ -54,7 +53,7 @@ RAT_IMG = load_image('spr_rat_up.png')
 EPISODES = 10000
 RENDER_EPISODE = 50
 EPSILON_MINIMUM = 0.001
-DECAY = np.prod((10, 10), dtype=float) / 20 #Decay era / 2
+DECAY = np.prod((10, 10), dtype=float) / 20
 LEARNING_RATE_MINIMUM = 0.2
 DISCOUNT = 0.99
 
